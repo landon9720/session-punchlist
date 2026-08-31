@@ -67,11 +67,21 @@ gets written has them already at hand.
 
 ## Sessions have an arc
 
-Most sessions run the same way: read-heavy at the start,
-action-heavy through the middle, retrospective at the
-end. A checklist read top to bottom already encodes
-that, so the ordering does real work rather than merely
-ranking priority.
+Read-heavy at the start, action-heavy through the
+middle, retrospective at the end. This is not a
+methodology imposed on the work — it is the shape work
+has, common enough that it usually goes without saying,
+and common enough that it is the shape the model
+absorbed from nearly everything it was trained on.
+
+So it is the trajectory you are on either way. The
+value in naming it is that you can then play to it: put
+the reading where the session is already disposed to
+read, the building where it is disposed to build, the
+synthesis where it is disposed to look back. A checklist
+read top to bottom encodes the same arc, which is why
+the ordering does real work instead of merely ranking
+priority.
 
 **Near the top** — what you know, what you are unsure
 of, the questions to answer, the analyses to run, the

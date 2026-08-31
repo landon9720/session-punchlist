@@ -62,13 +62,15 @@ is a lot; sometimes you are walking into a bug you do
 not understand yet and it is almost nothing. A thin
 board is a fine board — it fills in as you learn.
 
-**Order along the session's arc.** Sessions run
-read-heavy, then action-heavy, then retrospective, and
-ordinary checklist order already encodes that. Near the
-top: what you know, what you are unsure of, questions to
-answer, analyses to run, things to go read. Through the
-middle: the actions — run it, write it, open the pull
-request, review it adversarially, check the signal in
+**Order along the session's arc.** Work runs
+read-heavy, then action-heavy, then retrospective. The
+shape is already there and ordinary checklist order
+already encodes it, so order the board to play to it
+rather than across it. Near the top: what you know,
+what you are unsure of, questions to answer, analyses
+to run, things to go read. Through the middle: the
+actions — run it, write it, open the pull request,
+review it adversarially, check the signal in
 production. At the bottom: synthesize, extract,
 summarize, project, make durable.
 
