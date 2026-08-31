@@ -51,10 +51,9 @@ moving, what is stalled, what is queued, what probably
 will not happen. Name them, merge them, drop the empty
 ones to fit the work.
 
-The session is the unit of value, and its context is
-finite and spent continuously. The board is how you
-decide the shape of that spending while deciding is
-still cheap.
+A session is a unit of value, and its context is finite
+and spent continuously. The board is how you decide the
+shape of that spending while deciding is still cheap.
 
 **Order along the session's arc.** Sessions run
 read-heavy, then action-heavy, then retrospective, and

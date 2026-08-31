@@ -36,13 +36,12 @@ npx skills add landon9720/session-punchlist
 Or copy `skills/session-punchlist/SKILL.md` into your
 agent's skills directory.
 
-## The session is the unit of value
+## A session is a unit of value
 
-A session with a language model is not a chat log that
-happens on the way to the real work. It is the work — a
-bounded run of context and attention that either
-compounds into something durable or evaporates when the
-window closes.
+A session with a language model is not only a chat log
+on the way to the real work. It is a bounded run of
+context and attention that either compounds into
+something durable or evaporates when the window closes.
 
 That framing has a practical consequence. Context is
 finite and spent continuously, so the shape of a session
