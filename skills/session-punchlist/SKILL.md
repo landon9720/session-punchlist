@@ -51,9 +51,16 @@ moving, what is stalled, what is queued, what probably
 will not happen. Name them, merge them, drop the empty
 ones to fit the work.
 
-A session is a unit of value, and its context is finite
-and spent continuously. The board is how you decide the
-shape of that spending while deciding is still cheap.
+A session is a unit of value, its context is finite and
+spent continuously, and it has an inherent shape it will
+follow whether or not you attend to it. The board is
+where you think about how the work in front of you fits
+that shape.
+
+Populate what you can from what you know. Sometimes that
+is a lot; sometimes you are walking into a bug you do
+not understand yet and it is almost nothing. A thin
+board is a fine board — it fills in as you learn.
 
 **Order along the session's arc.** Sessions run
 read-heavy, then action-heavy, then retrospective, and

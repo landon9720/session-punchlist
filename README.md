@@ -44,10 +44,17 @@ context and attention that either compounds into
 something durable or evaporates when the window closes.
 
 That framing has a practical consequence. Context is
-finite and spent continuously, so the shape of a session
-is worth deciding early, while deciding is still cheap:
-before the window fills, before the work forks, before
-an unspoken expectation has become a wrong turn.
+finite and spent continuously, and a session has an
+inherent shape it will follow whether or not you attend
+to it. What is worth doing early is thinking about how
+the problem you are bringing fits that shape — and
+writing down whatever you can already see.
+
+Sometimes that is a lot. Sometimes you are walking into
+a bug you do not understand yet and it is almost
+nothing. A thin board is a fine board; it fills in as
+you learn. The point is to start thinking in this shape
+sooner, not to have the answer up front.
 
 The punch list is the instrument for that. Chat scrolls;
 a status pane doesn't. The board is drawn once at the
