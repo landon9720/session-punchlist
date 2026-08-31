@@ -36,21 +36,63 @@ npx skills add landon9720/session-punchlist
 Or copy `skills/session-punchlist/SKILL.md` into your
 agent's skills directory.
 
-## What it is for
+## The session is the unit of value
 
-Chat scrolls; a status pane doesn't. The board is drawn
-once at the start to settle what the session is, redrawn
-whenever the shape changes, and shown again at the end —
-where, because items carry their pull requests, tickets
-and paths, it doubles as the handoff.
+A session with a language model is not a chat log that
+happens on the way to the real work. It is the work — a
+bounded run of context and attention that either
+compounds into something durable or evaporates when the
+window closes.
 
-The buckets are temporal and all of them are scoped to
-the session in front of you: what is done, what is
-moving, what is stalled, what is queued, and what
-probably will not happen. Name them, merge them, or drop
-the empty ones to fit the work.
+That framing has a practical consequence. Context is
+finite and spent continuously, so the shape of a session
+is worth deciding early, while deciding is still cheap:
+before the window fills, before the work forks, before
+an unspoken expectation has become a wrong turn.
 
-One rule does the load-bearing work:
+The punch list is the instrument for that. Chat scrolls;
+a status pane doesn't. The board is drawn once at the
+start to settle what this session is, redrawn whenever
+the shape changes, and shown again at the end — where,
+because items carry their pull requests, tickets and
+paths, it doubles as the handoff.
+
+## Sessions have an arc
+
+Most sessions run the same way: read-heavy at the start,
+action-heavy through the middle, retrospective at the
+end. A checklist read top to bottom already encodes
+that, so the ordering does real work rather than merely
+ranking priority.
+
+**Near the top** — what you know, what you are unsure
+of, the questions to answer, the analyses to run, the
+things to go read.
+
+**Through the middle** — the actions. Run the
+simulation, write the code, open the pull request, run
+the adversarial review, verify the signal in production.
+Whatever your workflow's real steps are, they get named
+here instead of assumed.
+
+**At the bottom** — synthesize, extract, summarize,
+project, make durable.
+
+That last band is the one that gets skipped, and it is
+skipped for a structural reason: it comes due exactly
+when the context is longest and attention is thinnest.
+Writing it onto the board at the start, when it costs
+nothing, is what makes it survive to the end. A session
+that did good work and recorded none of it spent all its
+context and kept nothing.
+
+The buckets themselves are temporal and all of them are
+scoped to the session in front of you: what is done,
+what is moving, what is stalled, what is queued, and
+what probably will not happen. Name them, merge them, or
+drop the empty ones to fit the work.
+
+## The rule that does the work
 
 > **Started or not started.** That is the only line
 > between in flight and next — not importance, not size,

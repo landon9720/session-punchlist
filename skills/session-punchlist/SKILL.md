@@ -51,6 +51,29 @@ moving, what is stalled, what is queued, what probably
 will not happen. Name them, merge them, drop the empty
 ones to fit the work.
 
+The session is the unit of value, and its context is
+finite and spent continuously. The board is how you
+decide the shape of that spending while deciding is
+still cheap.
+
+**Order along the session's arc.** Sessions run
+read-heavy, then action-heavy, then retrospective, and
+ordinary checklist order already encodes that. Near the
+top: what you know, what you are unsure of, questions to
+answer, analyses to run, things to go read. Through the
+middle: the actions — run it, write it, open the pull
+request, review it adversarially, check the signal in
+production. At the bottom: synthesize, extract,
+summarize, project, make durable.
+
+**The closing band is an item, not an afterthought.**
+Recording what the session learned comes due exactly
+when context is longest and attention is thinnest, which
+is why it is the part that gets skipped. Put it on the
+board at the start, when it costs nothing. A session
+that did good work and wrote none of it down spent all
+its context and kept nothing.
+
 **Started or not started.** That is the only line
 between in flight and next — not importance, not size,
 not what you intend to pick up soonest. Anything you
