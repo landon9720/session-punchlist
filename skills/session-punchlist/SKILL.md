@@ -116,8 +116,8 @@ Anything hand-aligned is something you stop redrawing.
 ticket, a repo path — appended after a `·`, not
 described in prose. Bare identifiers are clickable in
 most terminals, they survive being pasted elsewhere,
-and they are what lets the closing board double as the
-handoff. Don't pad them into a column.
+and they keep the material ready for a handoff at the
+moment one gets written. Don't pad them into a column.
 
 Redraw when the shape changes, not every turn. In
 between, a line is plenty:

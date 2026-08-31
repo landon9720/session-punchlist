@@ -59,9 +59,11 @@ sooner, not to have the answer up front.
 The punch list is the instrument for that. Chat scrolls;
 a status pane doesn't. The board is drawn once at the
 start to settle what this session is, redrawn whenever
-the shape changes, and shown again at the end — where,
-because items carry their pull requests, tickets and
-paths, it doubles as the handoff.
+the shape changes, and shown again at the end, where it
+does two things for a handoff: it is the reminder to
+write one, and it keeps the material ready — since items
+carry their pull requests, tickets and paths, whatever
+gets written has them already at hand.
 
 ## Sessions have an arc
 
