@@ -1,7 +1,7 @@
 # session-punchlist
 
 An agent skill that draws the whole working session as
-a punch list — an ASCII-and-emoji status pane bucketed
+a punch list: an ASCII-and-emoji status pane bucketed
 by where each item actually sits right now.
 
 ```
@@ -47,29 +47,29 @@ That framing has a practical consequence. Context is
 finite and spent continuously, and a session has an
 inherent shape it will follow whether or not you attend
 to it. What is worth doing early is thinking about how
-the problem you are bringing fits that shape — and
+the problem you are bringing fits that shape, and
 writing down whatever you can already see.
 
 Sometimes that is a lot. Sometimes you are walking into
 a bug you do not understand yet and it is almost
-nothing. A thin board is a fine board; it fills in as
-you learn. The point is to start thinking in this shape
+nothing. That is fine, and the board fills in as you
+learn. The point is to start thinking in this shape
 sooner, not to have the answer up front.
 
-The punch list is the instrument for that. Chat scrolls;
-a status pane doesn't. The board is drawn once at the
-start to settle what this session is, redrawn whenever
-the shape changes, and shown again at the end, where it
-does two things for a handoff: it is the reminder to
-write one, and it keeps the material ready — since items
-carry their pull requests, tickets and paths, whatever
-gets written has them already at hand.
+The punch list is the instrument for that. Where a chat
+log scrolls away from you, the board stays in one place.
+You draw it once at the start to settle what the session
+is, redraw it whenever the shape changes, and show it
+again at the end. There it does two things for a
+handoff. It reminds you to write one, and because items
+carry their pull requests, tickets and paths, it keeps
+the material ready for whatever does get written.
 
 ## Sessions have an arc
 
 Read-heavy at the start, action-heavy through the
 middle, retrospective at the end. This is not a
-methodology imposed on the work — it is the shape work
+methodology imposed on the work. It is the shape work
 has, common enough that it usually goes without saying,
 and common enough that it is the shape the model
 absorbed from nearly everything it was trained on.
@@ -83,26 +83,24 @@ read top to bottom encodes the same arc, which is why
 the ordering does real work instead of merely ranking
 priority.
 
-**Near the top** — what you know, what you are unsure
-of, the questions to answer, the analyses to run, the
-things to go read.
-
-**Through the middle** — the actions. Run the
-simulation, write the code, open the pull request, run
-the adversarial review, verify the signal in production.
-Whatever your workflow's real steps are, they get named
-here instead of assumed.
-
-**At the bottom** — synthesize, extract, summarize,
-project, make durable.
+Near the top go the things you already know, the things
+you are unsure of, the questions to answer, the analyses
+to run and the reading to do. Through the middle go the
+actions: run the simulation, write the code, open the
+pull request, run the adversarial review, verify the
+signal in production. Whatever your workflow's real
+steps are, they get named there instead of assumed. At
+the bottom go the closing tasks, which are to
+synthesize, extract, summarize, project and make
+durable.
 
 That last band is the one that gets skipped, and it is
-skipped for a structural reason: it comes due exactly
+skipped for a structural reason. It comes due exactly
 when the context is longest and attention is thinnest.
 Writing it onto the board at the start, when it costs
-nothing, is what makes it survive to the end. A session
-that did good work and recorded none of it spent all its
-context and kept nothing.
+nothing, is what makes it survive to the end. If the
+session does good work and none of it gets written down,
+the context is spent and nothing is kept.
 
 The buckets themselves are temporal and all of them are
 scoped to the session in front of you: what is done,
@@ -113,7 +111,7 @@ drop the empty ones to fit the work.
 ## The rule that does the work
 
 > **Started or not started.** That is the only line
-> between in flight and next — not importance, not size,
+> between in flight and next. Not importance, not size,
 > not what you intend to pick up soonest. Anything you
 > have touched is in flight until it is finished or it
 > leaves your hands. When it leaves your hands and you
@@ -125,15 +123,15 @@ care about most" and the board stops describing reality.
 
 ## Style
 
-The look is borrowed from text-mode interfaces — BBS
-door games, character sheets, roguelike status lines —
+The look is borrowed from text-mode interfaces: BBS
+door games, character sheets, roguelike status lines,
 where position carries meaning and you read the change
-rather than the text. So: glyphs and bucket order stay
-put between renders, emoji are spent on structure rather
-than sprinkled through the prose, nothing is padded into
-a right-hand column, and no line is ever long enough to
-fold. How wide is a judgment call; that it never wraps
-on its own is not.
+rather than the text. Glyphs and bucket order stay put
+between renders. Emoji are spent on structure instead of
+sprinkled through the prose. You do not pad anything
+into a right-hand column, and no line runs long enough
+to fold. You choose the width; you do not let the
+terminal choose where the line breaks.
 
 ## License
 
